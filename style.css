@@ -1,3 +1,13 @@
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Mobile view */
+  /* The web site should be mobile responsive and be usable between 320px and 480px.
+    The web site should be coded in using a mobile-first methodology
+    Start with the mobile view and use “min-width” media queries to re-flow the layout for tablet and desktop views
+   */
+}
+
 body{
     background-color: azure;
 }
