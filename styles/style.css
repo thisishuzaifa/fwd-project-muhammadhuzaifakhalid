@@ -1,0 +1,96 @@
+
+@media screen and (min-width: 320px)  {
+  body{
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (min-width: 1920px)  {
+  body{
+    font-size: 20px;
+  }
+  
+  
+}
+
+
+/* background image set to non repeat covering the entire screen */
+body{
+    
+    background-image: url("../images/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+
+
+  /*  Textbox at the center of the page with auto size adjustment and flex properties */
+  
+#textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: fantasy;
+  font-size: 1.5em;
+  color: sandybrown;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+
+
+
+#content {
+  padding: 100px 30px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+
+}
+
+nav li {
+	flex: 1;
+}
+
+nav a {
+	display: block;
+	font-family: fantasy;
+	color:black;
+	text-decoration: none;
+	line-height: 52px;
+	text-align: center;
+  background-color: sandybrown;
+}
+
+nav li:last-child a {
+	border-right: none;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+	background-color: brown;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
