@@ -1,33 +1,72 @@
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* Mobile view */
-  /* The web site should be mobile responsive and be usable between 320px and 480px.
-    The web site should be coded in using a mobile-first methodology
-    Start with the mobile view and use “min-width” media queries to re-flow the layout for tablet and desktop views
-   */
+@media only screen and (min-width: 320px) and (max-width: 1920px) {
+  
+
 }
 
+/* background image set to non repeat covering the entire screen */
 body{
-    background-color: azure;
-    background-image: url(images/1.jpg);
+    
+    background-image: url("images/6.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
 }
 
+
+
+  /*  Texbox at the center of the page */
+  
 #textbox {
-  margin-top:50px;
-  background-color: skyblue;
-  position: relative;
-  width: 800px;
-  height: 600px;
-  opacity: 0.8;
-  top: -12px;
-  left: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:sandybrown;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
   text-align: center;
-  border: 2px solid black;
+  opacity: 0.7;
+  
+  
 }
 
 #content {
   padding: 100px 30px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+
+}
+
+nav li {
+	flex: 1;
+}
+
+nav a {
+	display: block;
+	font-family: 'Times New Roman', Times, serif;
+	color:black;
+	text-decoration: none;
+	line-height: 52px;
+	text-align: center;
+  background-color: sandybrown;
+}
+
+nav li:last-child a {
+	border-right: none;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+	background-color: brown;
 }
